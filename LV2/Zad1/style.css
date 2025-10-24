@@ -15,6 +15,21 @@ li {
     padding-bottom: none;
 }
 
+.uk {
+    background: url(en-GB.png) 5px center no-repeat;
+    background-color: rgba(32, 241, 32, 75%);
+}
+
+.germany {
+    background: url(de.png) 5px center no-repeat;
+    background-color: rgba(255, 0, 0, 25%);
+}
+
+.spain {
+    background: url(es.png) 5px center no-repeat;
+    background-color: rgba(0, 30, 255, 0.5);
+}
+
 a {
     text-decoration: none;
     color: black;
