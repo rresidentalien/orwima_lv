@@ -1,18 +1,18 @@
 ol {
     border: 2px solid black;
     width: 250px;
-    fill: 5px;
+    padding: 5px;
 }
 
 li {
-    fill: 3px;
+    padding: 3px;
     padding-left: 34px;
-    padding-bottom: 5px;
+    margin-bottom: 5px;
     list-style-position: inside;
 }
 
 #last {
-    padding-bottom: none;
+    margin-bottom: 0px;
 }
 
 .uk {
