@@ -14,3 +14,14 @@ li {
 #last {
     padding-bottom: none;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-transform: uppercase;
+    color: red;
+    text-decoration: underline;
+}
