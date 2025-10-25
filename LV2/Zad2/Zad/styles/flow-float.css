@@ -175,3 +175,12 @@ footer p {
     line-height: 5.625em;
     text-align: left
 }
+
+.right {
+    float: right;
+}
+
+.under {
+    float: right;
+    clear: right;
+}
