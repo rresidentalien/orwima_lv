@@ -85,7 +85,7 @@ aside {
 }
 
 main aside:nth-child(1) {
-
+    float: right;
     width: 300px;
     padding: 5px;
     border-radius: 10px;
@@ -97,8 +97,8 @@ main aside:nth-child(1) p {
 }
 
 main aside:nth-child(2) {
-
-
+    clear: right;
+    float: right;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 300px;
@@ -136,7 +136,7 @@ main article:nth-child(4) h2 {
 }
 
 footer {
-
+    clear: right;
     background-color: #fc4a1a;
     margin: 10px;
     padding: 5px;
@@ -148,7 +148,7 @@ footer ul {
     width: auto;
     height: auto;
     text-align: center;
-
+    float: right;
     list-style-type: none;
 }
 
@@ -174,13 +174,4 @@ footer p {
     width: 100%;
     line-height: 5.625em;
     text-align: left
-}
-
-.right {
-    float: right;
-}
-
-.under {
-    float: right;
-    clear: right;
 }
