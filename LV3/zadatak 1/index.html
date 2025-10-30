@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Kalkulator
+        </h1>
+    </header>
+
+    <form>
+        <p>Prvi broj:</p>
+        <input id="prviBroj" type="number" />
+
+        <p>Drugi broj:</p>
+        <input id="drugiBroj" type="number" />
+
+        <p>
+            <button type="button" onclick="Zbroji()">+</button>
+            <button type="button" onclick="Oduzmi()">-</button>
+            <button type="button" onclick="Pomnozi()">*</button>
+            <button type="button" onclick="Podijeli()">/</button>
+        </p>
+
+        <p id="result"></p>
+    </form>
+</body>
+
+</html>
