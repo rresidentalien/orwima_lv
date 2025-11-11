@@ -1,4 +1,4 @@
-.todo-list li.done .text {
+.done {
     text-decoration: line-through;
     opacity: 0.50;
 }
