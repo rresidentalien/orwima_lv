@@ -3,28 +3,38 @@ function Prikazi(broj) {
     rezultat.textContent = 'Rezultat: ' + broj;
 }
 
-function UzmiBrojeve() {
-    let a = parseFloat(document.getElementById('prviBroj').value);
-    let b = parseFloat(document.getElementById('drugiBroj').value);
-    return { a, b };
+function UzmiA() {
+    let a = parseFloat(document.getElementById('prviBroj').value)
+}
+
+function UzmiB() {
+    let b = parseFloat(document.getElementById('drugiBroj').value)
 }
 
 function Zbroji() {
-    let { a, b } = UzmiBrojeve();
+    let a = UzmiA()
+    let b = UzmiB()
+
     Prikazi(a + b);
 }
 
 function Oduzmi() {
-    let { a, b } = UzmiBrojeve();
+    let a = UzmiA()
+    let b = UzmiB()
+
     Prikazi(a - b);
 }
 
 function Pomnozi() {
-    let { a, b } = UzmiBrojeve();
+    let a = UzmiA()
+    let b = UzmiB()
+
     Prikazi(a * b);
 }
 
 function Podijeli() {
-    let { a, b } = UzmiBrojeve();
+    let a = UzmiA()
+    let b = UzmiB()
+
     Prikazi(a / b);
 }
